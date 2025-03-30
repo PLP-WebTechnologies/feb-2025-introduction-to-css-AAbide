@@ -1,0 +1,45 @@
+/* Selector 1: ID selector */
+#page-title {
+    color: darkslateblue;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Selector 2: Class selector */
+.intro-text {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 10px 20px;
+    margin: 20px auto;
+    width: 80%;
+    line-height: 1.6;
+}
+
+/* Selector 3: Element selector */
+body {
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the image */
+.hero-image {
+    display: block;
+    margin: 30px auto;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* Box with margin, padding, border */
+.content-box {
+    background-color: #fff;
+    border: 2px solid #007BFF;
+    padding: 20px;
+    margin: 40px auto;
+    width: 75%;
+    font-family: 'Verdana', sans-serif;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
